@@ -36,9 +36,10 @@ html, body {
   color: #d4af37;
   height: 100%;
   width: 14%;
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-family:monument, sans-serif;
   letter-spacing: 0.1vw;
+  font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,8 +62,8 @@ html, body {
   font-style: italic;
   font-size: 0.5vw;
   position: absolute;
-  top: 65.5%;
-  right: 19%;
+  top: 70%;
+  right: 20%;
 }
 #nav h2{
   /* background-color: blue; */
@@ -223,9 +224,12 @@ html, body {
   background-size: cover;
   background-position: 30%;
 }
+#desi{
+  margin-top: 120%;
+}
 #page2-part1 h1{
   color: #d4af37;
-  margin-top: 50vw;
+  /* margin-top: 50vw; */
   font-family:fantasy;
   font-size: 3vw;
   font-weight: 500;
@@ -800,6 +804,7 @@ p{
   justify-content: space-between;
 }
 #own1-page7-left h1{
+  margin-left: 4.5%;
   width: 20vw;
   padding-top: 2vw;
   font-size: 20px;
